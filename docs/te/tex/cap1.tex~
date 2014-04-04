@@ -8,6 +8,7 @@ proyecto o trabajo de investigación.
 %---------------------------------------------------------------------------------
 \section{Sección Uno}
 \label{1:sec:1}
+  Primer párrafo de la primera sección.
 Si simplemtente se desea escribir texto normal en Latex,
 sin complicadas frmulas matemáticas o efectos especiales
 como cambios de fuente, entonces simplemtente tiene que escribir
