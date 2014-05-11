@@ -1,0 +1,221 @@
+\documentclass[spanish,a4paper,11pt,twoside]{report}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[dvips]{graphicx}
+\usepackage[dvips]{epsfig}
+\usepackage[latin1]{inputenc}
+%\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{alltt}
+\usepackage{templates/algorithm}
+\usepackage{templates/algorithmic}
+\usepackage{templates/multirow}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\SONY}{{\sc Sony}}
+\newcommand{\MICROSOFT}{{\sc Microsoft}}
+\newcommand{\GCC}{\textsf{\textsc{G}CC}}
+\newcommand{\INTEL}{\textsf{\textsc{I}ntel}}
+
+%%% Traducimos el pseudocodigo
+\renewcommand{\algorithmicwhile}{\textbf{mientras}}
+\renewcommand{\algorithmicend}{\textbf{fin}}
+\renewcommand{\algorithmicdo}{\textbf{hacer}}
+\renewcommand{\algorithmicif}{\textbf{si}}
+\renewcommand{\algorithmicthen}{\textbf{entonces}}
+\renewcommand{\algorithmicrepeat}{\textbf{repetir}}
+\renewcommand{\algorithmicuntil}{\textbf{hasta que}}
+\renewcommand{\algorithmicelse}{\textbf{en otro caso}}
+\renewcommand{\algorithmicfor}{\textbf{para}}
+
+%\newcommand{\RETURN}{\textbf{retornar} }
+\newcommand{\RET}{\STATE \textbf{retornar} }
+\newcommand{\TO}{\textbf{hasta} }
+\newcommand{\AND}{\textbf{y} }
+\newcommand{\OR}{\textbf{o} }
+
+%%%%%%%%%%%%%%%%% Creamos un entorno para listar código fuente %%%%%%%%%%%%%%%
+\newenvironment{sourcecode}
+{\begin{list}{}{\setlength{\leftmargin}{1em}}\item\scriptsize\bfseries}
+{\end{list}}
+
+\newenvironment{littlesourcecode}
+{\begin{list}{}{\setlength{\leftmargin}{1em}}\item\tiny\bfseries}
+{\end{list}}
+
+\newenvironment{summary}
+{\par\noindent\begin{center}\textbf{Abstract}\end{center}\begin{itshape}\par\noindent}
+{\end{itshape}}
+
+\newenvironment{keywords}
+{\begin{list}{}{\setlength{\leftmargin}{1em}}\item[\hskip\labelsep \bfseries Keywords:]}
+{\end{list}}
+
+\newenvironment{palabrasClave}
+{\begin{list}{}{\setlength{\leftmargin}{1em}}\item[\hskip\labelsep \bfseries Palabras clave:]}
+{\end{list}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Format
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\oddsidemargin 5 mm
+\evensidemargin 5 mm
+\textwidth 15 cm
+\input{amssym.def}
+\voffset -3 cm
+
+\pagestyle{empty}
+\thispagestyle{empty}
+
+\newcommand{\HRule}{\rule{\linewidth}{1mm}}
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{0mm}
+\vspace*{\stretch{1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% First Page 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{center}
+\includegraphics[width=0.2\textwidth]{images/logotipo-secundario-ULL}\\[0.25cm]
+\end{center}
+
+\HRule
+
+\begin{center}
+        {\Huge Series de potencias Taylor. } \\[2.5mm] 
+        {\Huge Función Ln(x)} \\[2.5mm]
+        {\Large Yoselin Armas Ramos y Bianca E. Kennedy Giménez} \\[5mm]
+        {\Large \textit{GAII}} \\[5mm]
+
+
+        {\em Técnicas Experimentales. $1^{er}$ curso. $2^{do}$ semestre} \\[5mm]
+        Facultad de Matemáticas \\[5mm]
+        
+        Universidad de La Laguna \\
+\end{center}
+\HRule
+\vspace*{\stretch{2}}
+\begin{center}
+  La Laguna, \today 
+\end{center}
+%\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newpage{\pagestyle{empty}\cleardoublepage}
+
+%\pagestyle{myheadings} %my head defined by markboth or markright
+% No funciona bien \markboth sin "twoside" en \documentclass, pero al
+% ponerlo se dan un montón de errores de underfull \vbox, con lo que no se
+% ha puesto.
+%\markboth{Yoselin Armas y Bianca Kennedy}{Series de Taylor}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Numeracion en romanos
+\renewcommand{\thepage}{\roman{page}}
+\setcounter{page}{1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  
+\tableofcontents
+\listoffigures
+\cleardoublepage
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newpage{\pagestyle{empty}\cleardoublepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Numeracion a partir del capitulo I
+\renewcommand{\thepage}{\arabic{page}}
+\setcounter{page}{1}
+
+\setlength{\parindent}{5mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+
+La asignatura de Técnicas Experimentales nos ha aportado varios conocimientos sobre lo que era para nosotros un nuevo lenguaje de programación.
+Estos conocimientos adquiridos serán empleados en la investigación de la Serie de Taylor aplicada a la función $ln(x)$ . 
+En el siguiente informe se puede observar el contenido del trabajo elaborado: historia, series de Taylor y Mclaurin, aplicación matemática
+y empleo de algoritmos para realizar varios experimentos que nos llevarán a determinadas conclusiones.
+\end{abstract}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Motivación y objetivos}
+\label{chapter:obj}
+
+\input{tex/cap1.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Fundamentos teóricos}
+\label{chapter:teo}
+
+\input{tex/cap2.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Procedimiento experimental}
+\label{chapter:exp}
+
+\input{tex/cap3.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Conclusiones}
+
+Mediante la realización del trabajo hemos contrastado la información con programas informáticos (Python), por lo cual,
+queda demostrado la eficacia frente a otros métodos, ya sea por la facilidad que aporta al hacer investigaciones 
+o por su precición de cálculo. Con esta herramienta de trabajo hemos concluido que el Desarrollo de Taylor aplicado a la 
+función logaritmo neperiano de ``x'', fijando dos varibles y variando una, afecta, sobretodo, a la proximidad de la Serie
+de Taylor en f(x)=ln(x) y el valor del Logaritmo Neperiano en ese punto. Los resultados de la parte experimental, respaldados por la parte teórica 
+en la que se demuestra como hallar el polinomio de Taylor del ln(x) mediante un sumartorio general o un sumatorio solo aplicable al logaritmo 
+neperiano, nos indican que el error será minimo cuanto mayor sea el grado o nulo si el punto y el centro a tratar son iguales; también,
+hemos podido observar el efecto contrario al variar el centro.
+Además, hemos empleado los procesadores de texto LaTeX y Beamer, lo que nos ha llevado a ampliar nuestros conocimientos en esta materia.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{appendix}
+
+\chapter{Título del Apéndice 1}
+\label{appendix:1}
+
+\input{tex/apendice1.tex}
+
+
+\end{appendix}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\addcontentsline{toc}{chapter}{Bibliografía}
+\bibliographystyle{plain}
+
+
+\bibliography{bib/references}
+
+
+\nocite{Burgos:2004}
+\nocite{SpivakCal:1998}
+\nocite{URL:XML}
+\nocite{URL:XML2}
+\nocite{URL:XML3}
+\nocite{URL:XML4}
+\nocite{URL:XML5}
+\nocite{URL:XML6}
+\nocite{URL:XML7}
+\nocite{URL:XML8}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}

@@ -1,0 +1,18 @@
+
+\begin{tabular}{|l | r@{,}l |}
+\hline
+Si el valor de n= 5     &  0 & 783333333333333\\
+\hline
+Si el valor de n= 15    &  0 & 725371850371850\\
+\hline
+Si el valor de n= 25    &  0 & 712747499542829\\
+\hline
+Si el valor de n= 200   &  0 & 690653430481824\\
+\hline
+Si el valor de n= 800   &  0 & 692522571184642\\
+
+\hline
+\end{tabular}
+%\caption{Tercer experimento}
+\label{tab:3}
+\input{tables/table3.tex}

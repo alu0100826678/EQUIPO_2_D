@@ -1,0 +1,23 @@
+\begin{table}[!ht]
+\begin{tabular}{|l | r@{,}l |}
+\hline
+Si el valor de x= 8  &  2 & 07943719692636\\
+\hline
+Si el valor de x= 7  &  1 & 94591013946629\\
+\hline
+Si el valor de x= 6  &  1 & 79175946922805\\
+\hline
+Si el valor de x = 5 &  1 & 60943792540920\\
+\hline
+Si el valor de x= 4  & 1  & 38630243959407\\
+
+\hline
+\end{tabular}
+%\caption{Segundo experimento}
+\label{tab:2}
+\input{tables/table2.tex}
+
+
+\end{table}
+
+
