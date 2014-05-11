@@ -1,0 +1,343 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.4.28)  11 MAY 2014 23:47
+entering extended mode
+ %&-line parsing enabled.
+**memte.tex
+(./memte.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
+ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
+9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
+skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
+orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
+, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
+rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
+)
+(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+(/usr/share/texmf-texlive/tex/latex/base/latin1.def
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+(/var/lib/texmf/tex/generic/babel/babel.sty
+Package: babel 2008/07/06 v3.8l The Babel package
+
+(/usr/share/texmf-texlive/tex/generic/babel/spanish.ldf
+Language: spanish.ldf 2009/01/02 v5.0h Spanish support from the babel system
+
+(/usr/share/texmf-texlive/tex/generic/babel/babel.def
+File: babel.def 2008/07/06 v3.8l Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen107
+)
+\es@datefmt=\count89
+\es@quottoks=\toks17
+\es@quotdepth=\count90
+Package babel Info: Making " an active character on input line 492.
+Package babel Info: Making . an active character on input line 585.
+Package babel Info: Making < an active character on input line 630.
+Package babel Info: Making > an active character on input line 630.
+))
+(/usr/share/texmf-texlive/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+) (./templates/algorithm.sty
+
+LaTeX Warning: You have requested package `templates/algorithm',
+               but the package provides `algorithm'.
+
+Package: algorithm 
+Document Style `algorithm' - floating environment
+(/usr/share/texmf-texlive/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count91
+\float@exts=\toks18
+\float@box=\box26
+\@float@everytoks=\toks19
+\@floatcapt=\box27
+)
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks20
+\c@algorithm=\count92
+)
+(./templates/algorithmic.sty
+
+LaTeX Warning: You have requested package `templates/algorithmic',
+               but the package provides `algorithmic'.
+
+Package: algorithmic 2006/06/02
+Document Style `algorithmic' - environment
+(/usr/share/texmf-texlive/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count93
+\calc@Bcount=\count94
+\calc@Adimen=\dimen108
+\calc@Bdimen=\dimen109
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count95
+\calc@Cskip=\skip45
+)
+\c@ALC@line=\count96
+\c@ALC@rem=\count97
+\c@ALC@depth=\count98
+\ALC@tlm=\skip46
+\algorithmicindent=\skip47
+) (./templates/multirow.sty
+\bigstrutjot=\dimen110
+) (/usr/share/texmf-texlive/tex/plain/amsfonts/amssym.def
+\msafam=\mathgroup4
+\msbfam=\mathgroup5
+\eufmfam=\mathgroup6
+) (./memte.aux
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+)
+\openout1 = `memte.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+File: images/logotipo-secundario-ULL.eps Graphic file (type eps)
+ <images/logotipo-secundario-ULL.eps>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 100.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 100.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 100.
+ [1
+
+] (./memte.toc)
+\tf@toc=\write3
+\openout3 = `memte.toc'.
+
+ [2
+
+] (./memte.lof)
+\tf@lof=\write4
+\openout4 = `memte.lof'.
+
+
+[3
+
+] [4
+
+] [1]
+Cap\'{\i }tulo 1.
+(./tex/cap1.tex) [2
+
+]
+Cap\'{\i }tulo 2.
+(./tex/cap2.tex [3
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 29.
+File: images/taylor.eps Graphic file (type eps)
+ <images/taylor.eps> [4
+
+] [5]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 84.
+) [6
+
+]
+Cap\'{\i }tulo 3.
+(./tex/cap3.tex [7
+
+]
+File: images/fun053.eps Graphic file (type eps)
+ <images/fun053.eps>
+Underfull \vbox (badness 1845) has occurred while \output is active []
+
+ [8
+
+])
+[9]
+Cap\'{\i }tulo 4.
+[10
+
+]
+Ap\'{e}ndice A.
+(./tex/apendice1.tex
+Overfull \hbox (55.15306pt too wide) in paragraph at lines 37--37
+[]\OT1/cmtt/m/n/9 grado = int(raw_input('Introduzca el grado en el que desea qu
+e se aplique el desarrollo de Taylor: '))[] 
+ []
+
+
+Overfull \hbox (64.60295pt too wide) in paragraph at lines 37--37
+[]\OT1/cmtt/m/n/9 punto = float(raw_input('Introduzca el punto en el que desea 
+que se aplique el desarrollo de Taylor: '))[] 
+ []
+
+
+Overfull \hbox (74.05284pt too wide) in paragraph at lines 37--37
+[]\OT1/cmtt/m/n/9 centro = float(raw_input('Introduzca el centro en el que dese
+a que se aplique el desarrollo de Taylor: '))[] 
+ []
+
+) [11
+
+]
+Ap\'{e}ndice B.
+
+! LaTeX Error: File `tex/apendice2.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(./memte.bbl [12
+
+]
+! You can't use `macro parameter character #' in horizontal mode.
+l.7 ...Programacion/python-programming/93912.html#
+                                                  .U2_W3%
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.7 ...ramacion/python-programming/93912.html#.U2_
+                                                  W3%
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.9 
+    
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.9 
+    
+? 
+
+Overfull \hbox (9.46019pt too wide) in paragraph at lines 7--9
+[]\OT1/cmr/m/n/10 http://ordenador.wingwit.com/Programacion/python-programming/
+93912.html.U2$[]3\OML/cmm/m/it/10 vl\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 N\OT1/cmr
+/m/n/10 1\OML/cmm/m/it/10 Y:[]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.9 
+    
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.11 http://fr.wikiversity.org/wiki/Fonctions_
+                                              exponentielles_et_logarithme_n...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 
+     
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.14 
+     
+? 
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.14 
+     
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.16 ...rogramacion/python-programming/93912.html#
+                                                  .U2_XG%
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.16 ...amacion/python-programming/93912.html#.U2_
+                                                  XG%
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 
+     
+? x
+ 
+Here is how much of TeX's memory you used:
+ 1710 strings out of 493849
+ 20819 string characters out of 1152846
+ 78313 words of memory out of 3000000
+ 4952 multiletter control sequences out of 15000+50000
+ 13303 words of font info for 49 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 25i,8n,27p,292b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
+Output written on memte.dvi (16 pages, 22976 bytes).

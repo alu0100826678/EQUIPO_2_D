@@ -1,0 +1,20 @@
+#!/usr/bin/python
+#!ecoding: UTF-8
+
+import matplotlib.pyplot as dibujo 
+import numpy as np
+
+x1=[1,2,3,4,5,6,7,8,9,10]
+y1=[0,0.6931,1.0986,1.3862,1.6094,1.7917,1.9459,2.0794,2.1972,2.3025]
+y1= [4,5,6,7,8,9,3,2,1,0]
+
+dibujo.plot(x1,y1,marker='s', linestyle='--', color='m')
+
+dibujo.title('Gráfica de ln(x)')
+
+dibujo.xlim(0.0000,11.0000)
+dibujo.ylim(0.0000,3.0000)
+dibujo.legend()
+
+dibujo.savefig("grafica1.eps",dpi=100)
+dibujo.show()

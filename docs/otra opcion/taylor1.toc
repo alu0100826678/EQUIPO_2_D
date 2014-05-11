@@ -1,0 +1,13 @@
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{5}
+\contentsline {section}{\numberline {1.1}Historia}{5}
+\contentsline {chapter}{\numberline {2}Serie de Taylor y Logaritmo Neperiano}{7}
+\contentsline {section}{\numberline {2.1}Series de potencias: Taylor}{7}
+\contentsline {section}{\numberline {2.2}Logaritmo Neperiano}{7}
+\contentsline {section}{\numberline {2.3}Aplicaci\IeC {\'o}n matem\IeC {\'a}tica del Teorema de Taylor y uso del Logaritmo neperiano}{7}
+\contentsline {section}{\numberline {2.4}Aplicaci\IeC {\'o}n Series de Taylor en f(x)=ln(x)}{8}
+\contentsline {chapter}{\numberline {3}Proceso Experimental}{9}
+\contentsline {chapter}{\numberline {4}Ap\IeC {\'e}ndice}{11}
+\contentsline {section}{\numberline {4.1}Python}{11}
+\contentsline {section}{\numberline {4.2}Informaci\IeC {\'o}n de la m\IeC {\'a}quina}{12}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{12}
