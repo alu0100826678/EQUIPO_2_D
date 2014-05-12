@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.4.28)  11 MAY 2014 23:47
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.4.28)  12 MAY 2014 15:56
 entering extended mode
  %&-line parsing enabled.
 **memte.tex
@@ -241,103 +241,20 @@ Overfull \hbox (74.05284pt too wide) in paragraph at lines 37--37
 a que se aplique el desarrollo de Taylor: '))[] 
  []
 
-) [11
-
-]
-Ap\'{e}ndice B.
-
-! LaTeX Error: File `tex/apendice2.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-(./memte.bbl [12
+) (./memte.bbl [11
 
 ]
 ! You can't use `macro parameter character #' in horizontal mode.
 l.7 ...Programacion/python-programming/93912.html#
                                                   .U2_W3%
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.7 ...ramacion/python-programming/93912.html#.U2_
-                                                  W3%
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.9 
-    
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.9 
-    
-? 
-
-Overfull \hbox (9.46019pt too wide) in paragraph at lines 7--9
-[]\OT1/cmr/m/n/10 http://ordenador.wingwit.com/Programacion/python-programming/
-93912.html.U2$[]3\OML/cmm/m/it/10 vl\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 N\OT1/cmr
-/m/n/10 1\OML/cmm/m/it/10 Y:[]$ 
- []
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.9 
-    
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.11 http://fr.wikiversity.org/wiki/Fonctions_
-                                              exponentielles_et_logarithme_n...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.14 
-     
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.14 
-     
-? 
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.14 
-     
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-l.16 ...rogramacion/python-programming/93912.html#
-                                                  .U2_XG%
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.16 ...amacion/python-programming/93912.html#.U2_
-                                                  XG%
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.18 
-     
 ? x
  
 Here is how much of TeX's memory you used:
- 1710 strings out of 493849
- 20819 string characters out of 1152846
+ 1712 strings out of 493849
+ 20832 string characters out of 1152846
  78313 words of memory out of 3000000
- 4952 multiletter control sequences out of 15000+50000
+ 4955 multiletter control sequences out of 15000+50000
  13303 words of font info for 49 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  25i,8n,27p,292b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
-Output written on memte.dvi (16 pages, 22976 bytes).
+Output written on memte.dvi (15 pages, 22808 bytes).

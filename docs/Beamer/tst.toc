@@ -1,0 +1,18 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Motivaci\IeC {\'o}n y Objetivos}{9}{0}{1}
+\beamer@sectionintoc {2}{Fundamentos Te\IeC {\'o}ricos}{14}{0}{2}
+\beamer@subsectionintoc {2}{1}{Historia}{14}{0}{2}
+\beamer@subsectionintoc {2}{2}{Series de Taylor}{15}{0}{2}
+\beamer@sectionintoc {3}{Aplicaci\IeC {\'o}n de la serie de Taylor de Ln(x)}{17}{0}{3}
+\beamer@sectionintoc {4}{Procedimiento experimental}{18}{0}{4}
+\beamer@subsectionintoc {4}{1}{Descripci\IeC {\'o}n de los experimentos}{18}{0}{4}
+\beamer@subsectionintoc {4}{2}{Descripci\IeC {\'o}n del material}{19}{0}{4}
+\beamer@sectionintoc {5}{Resultados obtenidos}{20}{0}{5}
+\beamer@subsectionintoc {5}{1}{Variaci\IeC {\'o}n del centro}{20}{0}{5}
+\beamer@subsectionintoc {5}{2}{Variaci\IeC {\'o}n del punto }{21}{0}{5}
+\beamer@subsectionintoc {5}{3}{Variaci\IeC {\'o}n del grado }{22}{0}{5}
+\beamer@subsectionintoc {5}{4}{Tiempo }{23}{0}{5}
+\beamer@subsectionintoc {5}{5}{An\IeC {\'a}lisis de los resultados}{24}{0}{5}
+\beamer@sectionintoc {6}{Conclusiones}{26}{0}{6}
+\beamer@sectionintoc {7}{Conclusiones}{27}{0}{7}
