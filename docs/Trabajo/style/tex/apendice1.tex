@@ -1,12 +1,9 @@
-\section{Algoritmo XXX}
-\label{Apendice1:XXX}
-
-\begin{center}
-\begin{footnotesize}
+\section{Algoritmo}
+\label{Apendice1:Python}
 \begin{verbatim}
-###################################################################################
-# Fichero .py
-###################################################################################
+
+ Fichero .py
+
 from sympy import *
 import sys
  
@@ -27,13 +24,9 @@ def taylor(grado, punto, centro):
     suma += termino
   return suma
 
-grado = int(raw_input('Introduzca el grado en el que desea que se aplique el desarrollo de Taylor: '))
-punto = float(raw_input('Introduzca el punto en el que desea que se aplique el desarrollo de Taylor: '))
-centro = float(raw_input('Introduzca el centro en el que desea que se aplique el desarrollo de Taylor: '))
+grado = int(raw_input('Introduzca el grado: '))
+punto = float(raw_input('Introduzca el punto: '))
+centro = float(raw_input('Introduzca el centro: '))
 suma = taylor(grado, punto, centro)
 print 'El polinomio de Taylor es: ', suma
-
-###################################################################################
 \end{verbatim}
-\end{footnotesize}
-\end{center}

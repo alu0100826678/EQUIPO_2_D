@@ -1,0 +1,195 @@
+\newtheorem{definicion}{Definición}
+\newtheorem{ejemplo}{Ejemplo}
+\documentclass{beamer}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} 
+
+\title[Presentacion con Beamer]{Series de pontencias de Taylor: ln(x)} %No lo ponemos dentro del begin porque ya están predefinidos
+\author[Técnicas experimentales{ULL}]{Yoselin Armas Ramos y Bianca E. Kennedy Giménez}
+\date[16-05-14]{16 de Mayo de 2014}
+
+\usetheme{Madrid}
+
+\begin{document}
+
+\begin{frame}
+
+  \includegraphics[width=0.15\textwidth]{img/logotipo-secundario-ULL}
+  \hspace*{7.0cm}
+  \includegraphics[width=0.16\textwidth]{img/fmatesc}
+  \titlepage
+  
+  \begin{small}
+    \begin{center}
+     Facultad de Matemáticas \\
+     Universidad de La Laguna
+    \end{center}
+  \end{small}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Índice}
+\tableofcontents[pausesections] %con este comando hacemos que ponga en esta transparencia todas las secciones [opcion para que aparezcan con pausa en casa clic]
+\end{frame}
+
+\begin{frame}
+\section{Historia} %Abrimos una sección
+\frametitle{Historia}
+\begin{itemize}
+\item El filósofo griego Zenón y sus paradojas.
+\item Revolución filosófica.
+\item Siglo VXI,Madhava de Sangamagrama y los primeros usos de la serie de Taylor.
+\item James Gregory y su interés por las Series de Taylor,series de Maclaurin.
+\item En el siglo XVIII ,el matemático británico Brook Taylor presentó de manera formal el Desarrollo de Taylor.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\subsection{Series de Taylor}
+\frametitle{Series de Taylor.}
+\begin{figure}[!th]
+\begin{center}
+\includegraphics[width=0.20\textwidth]{images/taylor.eps}
+\caption{Brook Taylor}
+\label{fig:1}
+\end{center}
+\end{figure}
+\begin{itemize}
+\item El desarrollo de Taylor parte de una serie infinita y da como resultado un resultado finito.
+\item Polinomio de Taylor:
+\end{itemize}
+ \[ P_{(n,a)} = f(a)+\frac{f'(a)}{1!}(x-a)+\frac{f''(a)}{2!}(x-a)^2+\cdots+\frac{f^{(n)}(a)}{n!} (x-a)^{n}\,. \]
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Logaritmo Neperiano} %No es posible sin abrir una sección
+Estudiando los fenómenos de creciemiento y decrecimiento en la naturaleza, se observó que con frecuencia aprecían potencias de un número irracional al que se llamo ``e'', 
+cuyo valor aproximado es:
+ \[ e \approx 2,7182818284590452353602874713527. \] 
+
+Para estudiar estos fenómenos se aplicaban los logaritmos y sus propiedades, en concreto el logaritmo en base ``e'', también llamado ``logaritmo neperiano''. 
+\[ln(x)=log_e(x)\]
+\end{frame}
+
+
+
+\section{Aplicación de la serie de Taylor de Ln(x)}
+
+\begin{frame}
+\frametitle{Aplicación de la serie de Taylor de Ln(x)}
+Se aplica el desarrollo de Taylor de manera general, donde:
+\[n=grado, a=valor, f^t(a)= \frac{b}{a^t} (1<t<n)\]
+
+Sea f(x)=ln(x) :
+
+\begin{enumerate}
+\item Se calcula la imagen:
+f(a) = ln(a)
+\item Se calcula la primera derivada y su imagen:
+$f'(a) = \frac{1}{a}$ 
+\item Se calcula la segunda derivada y su imagen:
+$f''(a) = \frac{-1}{a^2}$
+\item Se calcula la tercera derivada y su imagen:
+$f'''(a) = \frac{2}{a^3}$
+\item Calculamos la enésima derivada y su imagen:
+$f^n(a) = \frac{(n-1).(-b)}{a^{(n)}}\,.$
+\end{enumerate}
+Entonces,
+\[ P_{(n,a)} = ln(a)+\frac{\frac{1}{a}}{1!}(x-a)+\frac{\frac{-1}{a^2}}{2!}(x-a)^2+\cdots +\frac{ \frac{(n-1).(-b)}{a^{(n)}}}{n!} (x-a)^{n}\,. \]
+\end{frame}
+
+\section{Proceso experimental}
+\subsection{Variando el centro}
+\begin{frame}
+A continuación, veremos como variando solo el centro el desarrollo de Taylor cambia sus valores notablemente
+
+\begin{tabular}{|l | r@{,}l |}
+\hline
+Si el valor de c= 2 &  1 & 69314718055995\\
+\hline
+Si el valor de c=4  & -7746 & 38037230555\\
+\hline
+Si el valor de c=6  & -1680074 & 89712942
+\\
+\hline
+\end{tabular}
+
+\end{frame}
+
+\subsection{Variando el grado}
+\begin{frame}
+
+PONER TABLA CON VARIACIONES EN EL GRADO
+
+\end{frame}
+
+
+\section{Apéndice}
+
+\subsection{Python}
+\begin{frame}[fragile]
+A continuación,mostramos un programa elaborado en Python,un lenguaje interpretado orientado a objetos.Este programa realiza las series de Taylor de grado n centrado en un punto c de la función Ln(x).
+Para que el programa nos devuelva el resultado debemos darle los valores deseados al punto,grado y al centro. 
+\begin{verbatim}
+#!/usr/bin/python
+#!encoding: UTF-8
+
+from math import*
+from sympy import*     
+
+c = symbol('c')   
+funcion=ln(c)
+
+#Declaramos la función factorial.
+def fac(n):    
+    if n == 0:
+      return 1
+    else:
+      return n * fac(n-1)
+
+#Declaramos la serie de Taylor.
+def Taylor(grado, punto, centro, funcion):   
+  suma = funcion.evalf(subs={c:centro}) 
+  
+#Hacemos un bucle for para el cálculo de derivadas. 
+  for i in range(1,grado+1):                
+    deriv = diff(funcion, c)
+    termino = (deriv.evalf(subs={c:centro})/fac(i))*(punto-centro)**i
+    funcion = deriv
+    suma += termino
+  return suma  
+\end{verbatim}
+\end{frame}
+
+
+\subsection{Información de la máquina}
+\begin{frame}[fragile]
+A continuación, mostramos la información del ordenador donde se realizaron los experimentos:
+
+\begin{verbatim}
+('default', 'Sep 26 2013 20:03:06')
+<function platform at 0x7fe3b32c15f0>
+('Linux', 'bianca-VPCEA2S1E', '3.8.0-34-generic',
+'#49~precise1-Ubuntu SMP Wed Nov 13 18:05:00 UTC 2013', 'x86_64', 'x86_64')
+2.7.3
+Intel(R) Core(TM) i3 CPU   M 350  @ 2.27GHz
+GenuineIntel
+2266.000 Hz 
+3072 KB
+\end{verbatim}
+\end{frame}
+
+\begin{frame}
+\frametitle{Bibliografía}
+\begin{thebibliography}
+\beamertemplatebookbibitems
+\bibitem[Guía Docente,2013]{guia}
+Guía docente (año 2013)
+{\small $http://gjtsrh.com$}
+\end{thebibliography}
+\end{frame}
+\end{document}
+

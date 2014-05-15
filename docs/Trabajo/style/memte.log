@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.4.28)  12 MAY 2014 15:56
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.4.28)  15 MAY 2014 16:30
 entering extended mode
  %&-line parsing enabled.
 **memte.tex
@@ -211,50 +211,50 @@ Cap\'{\i }tulo 3.
 
 ]
 File: images/fun053.eps Graphic file (type eps)
- <images/fun053.eps>
-Underfull \vbox (badness 1845) has occurred while \output is active []
+ <images/fun053.eps> [8
 
- [8
+]) [9
 
-])
-[9]
+]
 Cap\'{\i }tulo 4.
-[10
+(./tex/cap4.tex) [10
 
 ]
 Ap\'{e}ndice A.
-(./tex/apendice1.tex
-Overfull \hbox (55.15306pt too wide) in paragraph at lines 37--37
-[]\OT1/cmtt/m/n/9 grado = int(raw_input('Introduzca el grado en el que desea qu
-e se aplique el desarrollo de Taylor: '))[] 
- []
-
-
-Overfull \hbox (64.60295pt too wide) in paragraph at lines 37--37
-[]\OT1/cmtt/m/n/9 punto = float(raw_input('Introduzca el punto en el que desea 
-que se aplique el desarrollo de Taylor: '))[] 
- []
-
-
-Overfull \hbox (74.05284pt too wide) in paragraph at lines 37--37
-[]\OT1/cmtt/m/n/9 centro = float(raw_input('Introduzca el centro en el que dese
-a que se aplique el desarrollo de Taylor: '))[] 
- []
-
-) (./memte.bbl [11
+(./tex/apendice1.tex) (./memte.bbl [11
 
 ]
-! You can't use `macro parameter character #' in horizontal mode.
-l.7 ...Programacion/python-programming/93912.html#
-                                                  .U2_W3%
-? x
- 
+Overfull \hbox (21.75706pt too wide) in paragraph at lines 7--9
+[]\OT1/cmr/m/n/10 http://ordenador.wingwit.com/Programacion/python-programming/
+93912.html#.U2[]W3vl5N1Y. 
+ []
+
+
+Overfull \hbox (23.07648pt too wide) in paragraph at lines 14--16
+[]\OT1/cmr/m/n/10 http://ordenador.wingwit.com/Programacion/python-programming/
+93912.html#.U2[]XGPl5N1Y. 
+ []
+
+
+Overfull \hbox (145.38472pt too wide) in paragraph at lines 24--26
+[]\OT1/cmr/m/n/10 http://recursostic.educacion.es/descartes/web/materiales[]did
+acticos/Desarrollo[]serie[]taylor/Desarrollo[]en[]serie[]de[]taylor.htm. 
+ []
+
+) [12
+
+] (./memte.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1712 strings out of 493849
- 20832 string characters out of 1152846
+ 1727 strings out of 493849
+ 21020 string characters out of 1152846
  78313 words of memory out of 3000000
- 4955 multiletter control sequences out of 15000+50000
- 13303 words of font info for 49 fonts, out of 3000000 for 9000
+ 4966 multiletter control sequences out of 15000+50000
+ 13482 words of font info for 49 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 25i,8n,27p,292b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
-Output written on memte.dvi (15 pages, 22808 bytes).
+ 25i,8n,27p,283b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on memte.dvi (16 pages, 31748 bytes).

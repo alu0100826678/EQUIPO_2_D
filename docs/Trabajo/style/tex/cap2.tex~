@@ -3,6 +3,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 \section{Introducción}
 \label{2:sec:1}
 El desarrollo de Taylor calcula la aproximación del valor de una función centrada en un punto, así como la estimación del error. En este caso, investigaremos la función logartimo Neperiano de ``x''.

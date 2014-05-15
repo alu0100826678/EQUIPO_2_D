@@ -1,0 +1,32 @@
+\section{Algoritmo}
+\label{Apendice1:Python}
+\begin{verbatim}
+
+ Fichero .py
+
+from sympy import *
+import sys
+ 
+def fac(grado):
+  if grado == 0:
+    return 1
+  else:
+    return grado * fac(grado-1)
+
+def taylor(grado, punto, centro):
+  c = Symbol('c')
+  funcion = ln(c)
+  suma = funcion.evalf(subs={c:centro})
+  for i in range(1,grado+1):
+    deriv = diff(funcion, c)
+    termino = (deriv.evalf(subs={c:centro})/fac(i))*((punto-centro)**i)
+    funcion = deriv
+    suma += termino
+  return suma
+
+grado = int(raw_input('Introduzca el grado: '))
+punto = float(raw_input('Introduzca el punto: '))
+centro = float(raw_input('Introduzca el centro: '))
+suma = taylor(grado, punto, centro)
+print 'El polinomio de Taylor es: ', suma
+\end{verbatim}
